@@ -17,5 +17,5 @@ const missingTask = findTask(tasks, 99);
 if (missingTask) {
   console.log(missingTask.title);
 } else {
-  console.log("Task 99 not found");
+  console.log("Task with ID 99 was not found.");
 }
